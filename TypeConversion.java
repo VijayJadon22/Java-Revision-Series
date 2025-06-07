@@ -14,11 +14,16 @@ public class TypeConversion {
         // d = f;
         // System.out.println(d);
 
-        int a = 257;
-        byte b = 23;
-        b = (byte) a;
-        System.out.println(b);
+        // int a = 257;
+        // byte b = 23;
+        // b = (byte) a;
+        // System.out.println(b);
 
+        
+        // float f = 2.56f;
+        // int n = 23;
+        // n = (int) f; //when float will be implictily casted point values will be lost
+        // System.out.println(n);
 
 
     }

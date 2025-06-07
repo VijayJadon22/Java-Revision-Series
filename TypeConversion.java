@@ -25,6 +25,12 @@ public class TypeConversion {
         // n = (int) f; //when float will be implictily casted point values will be lost
         // System.out.println(n);
 
+        byte a = 10;
+        byte b = 30;
+
+        int result = a * b; // this is type promotion as byte mulitplicationw as resulting in big value
+        System.out.println(result);
+
 
     }
 }
